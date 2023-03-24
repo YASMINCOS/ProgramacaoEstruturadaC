@@ -1,25 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    float custo, frete, despesas, venda, lucro;
+    int num1, num2;
 
-    printf("Digite o custo da mercadoria: R$");
-    scanf("%f", &custo);
+    printf("Digite o primeiro número: ");
+    scanf("%d", &num1);
 
-    printf("Digite o valor do frete: R$");
-    scanf("%f", &frete);
+    printf("Digite o segundo número: ");
+    scanf("%d", &num2);
 
-    printf("Digite o valor das despesas eventuais: R$");
-    scanf("%f", &despesas);
-
-    venda = custo + frete + despesas;
-
-    printf("Digite o valor de venda da mercadoria: R$");
-    scanf("%f", &venda);
-
-    lucro = (venda - custo - frete - despesas) / (custo + frete + despesas) * 100;
-
-    printf("A percentagem de lucro da mercadoria é: %.2f%%\n", lucro);
+    if (num1 > num2) {
+        printf("%d é maior que %d", num1, num2);
+    } else if (num2 > num1) {
+        printf("%d é maior que %d", num2, num1);
+    } else {
+        printf("%d e %d são iguais", num1, num2);
+    }
 
     return 0;
 }
