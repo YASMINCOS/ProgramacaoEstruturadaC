@@ -1,20 +1,26 @@
 #include <stdio.h>
-#include <math.h>
 
 int main() {
-    float num;
+    int anos, meses, dias, idade;
 
-    printf("Digite um numero: ");
-    scanf("%f", &num);
+    printf("Digite a idade em anos: ");
+    scanf("%d", &anos);
+    
+    printf("Digite a idade em meses:");
+    scanf("%d", &meses);
+    
+    printf("Digite a idade em dias:");
+    scanf("%d", &meses);
 
-    if (num >= 0) {
-        float quadrado = pow(num, 2);
-        float raiz = sqrt(num);
-        printf("Numero ao quadrado: %f\n", quadrado);
-        printf("Raiz quadrada: %f\n", raiz);
-    } else {
-        printf("O numero digitado nao e positivo.\n");
+    if (anos>=2024 || meses > 12 || dias >=32 || dias <=0){
+        printf("Data inválida");
+    }else{
+        idade = anos * 365 + meses * 30 + dias;
+
+      printf("A idade em dias e: %d\n", idade);
     }
+
+    
 
     return 0;
 }

@@ -1,19 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    float salario, prestacao;
-
-    printf("Digite o salario do trabalhador: ");
-    scanf("%f", &salario);
-
-    printf("Digite o valor da prestacao do emprestimo: ");
-    scanf("%f", &prestacao);
-
-    if (prestacao > salario * 0.2) {
-        printf("Emprestimo nao concedido.\n");
-    } else {
-        printf("Emprestimo concedido.\n");
-    }
-
+    float base, altura, area;
+    
+    printf("Digite a base do retangulo: ");
+    scanf("%f", &base);
+    
+    printf("Digite a altura do retangulo: ");
+    scanf("%f", &altura);
+    
+    area = base * altura;
+    
+    printf("A area do retangulo e: %.2f\n", area);
+    
     return 0;
 }
