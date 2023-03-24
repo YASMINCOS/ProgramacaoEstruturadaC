@@ -1,16 +1,21 @@
 #include <stdio.h>
 
-#define PI 3.14159
-
 int main() {
-    float raio, area;
+    int num1, num2;
 
-    printf("Digite o valor do raio do circulo: ");
-    scanf("%f", &raio);
+    printf("Digite o primeiro número: ");
+    scanf("%d", &num1);
 
-    area = PI * raio * raio;
+    printf("Digite o segundo número: ");
+    scanf("%d", &num2);
 
-    printf("A area do circulo e: %.2f", area);
+    if (num1 > num2) {
+        printf("%d é maior que %d", num1, num2);
+    } else if (num2 > num1) {
+        printf("%d é maior que %d", num2, num1);
+    } else {
+        printf("%d e %d são iguais", num1, num2);
+    }
 
     return 0;
 }
