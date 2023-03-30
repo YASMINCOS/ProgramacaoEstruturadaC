@@ -1,0 +1,10 @@
+1.    Faça um programa que leia dois números e mostre qual deles é o maior.
+
+2.    Faça um programa que leia dois números e mostre o maior deles. Se, por acaso, os dois números forem iguais, imprima a mensagem     “Números iguais”.
+
+3.    Faça um programa que leia um número inteiro e verifique se esse número é par ou ímpar.
+
+4.    Faça um programa que leia o salário de um trabalhador e o valor da     prestação de um empréstimo. Se a prestação, for maior que 20% do salário, imprima: “Empréstimo não concedido.”, caso contrário, imprima: “Empréstimo concedido.”
+
+5.    Faça um programa que leia um número e, caso ele seja positivo, calcule e mostre: o número digitado ao quadrado e raiz quadrada do número digitado.
+
