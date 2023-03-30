@@ -1,0 +1,21 @@
+1. Programa que calcule a média de 5 notas de um aluno. 
+ 
+2. Faça um programa que receba a idade de uma pessoa e se idade menor que 30 aparece a mensagem "Você é muito jovem". Caso idade maior que 30 anos, o programa não fará nada.  
+ 
+3. Faça um programa que entra com a idade de uma pessoa e se idade maior que 70 anos, aparece a mensagem "Novos 50". Se idade maior que 21 anos, Adulto. Se idade menor que 21 anos, Jovem. 
+ 
+4. Elabore um programa para verificação de situação eleitoral, onde será informada somente a idade do eleitor, considere as situações abaixo:
+
+Menor que 0 não nasceu
+0-15 não vota
+16-17 opcional
+18-65 obrigatório
+exatamente 41- somente ganha prêmio e não vota!!!
+> 65 opcional
+exatamente 88 - somente ganha prêmio e não vota!!!
+
+- Não utilizar os operadores lógicos || ou &&
+- Utilizar somente estrutura if/else conforme apresentada abaixo
+- Não utilizar switch/case
+- Não utilizar a estrutura "else if"
+
